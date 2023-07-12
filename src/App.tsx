@@ -1,13 +1,9 @@
 import React from "react";
 import "./App.css";
-import RandomJokesGenerator from "./components/RandomJokesGenerator";
+import RandomJokesGenerator from "./containers/RandomJokesGenerator";
 
 function App() {
-  return (
-    <div className="App">
-      <RandomJokesGenerator />
-    </div>
-  );
+  return <RandomJokesGenerator />;
 }
 
 export default App;
